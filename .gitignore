@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Generated data
+data/
+
+# OS noise
+.DS_Store
+Thumbs.db
