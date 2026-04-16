@@ -1,0 +1,34 @@
+league_name: National League South
+total_games: 46
+primary_playoff_cutoff: 7
+
+zones:
+  guaranteed:
+    Guaranteed Champions:
+      cutoff_position: 1
+    Guaranteed Play-Off Semi-Finals:
+      cutoff_position: 3
+    Guaranteed Play-Offs:
+      cutoff_position: 7
+    Guaranteed Safety:
+      cutoff_position: 20
+
+  predicted:
+    Predicted Champions:
+      position: 1
+    Predicted Runners-Up:
+      position: 2
+    Predicted Play-Off Semi-Finals:
+      cutoff_position: 3
+    Predicted Play-Offs:
+      cutoff_position: 7
+    Predicted Safety:
+      cutoff_position: 20
+    Predicted Relegation:
+      cutoff_position: 21
+
+    
+    
+
+sources:
+  table_url: https://www.skysports.com/national-league-south-table

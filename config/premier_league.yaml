@@ -1,0 +1,33 @@
+league_name: Premier League
+teams: 20
+total_games: 38
+
+primary_playoff_cutoff: 5   # Champions League
+
+zones:
+  guaranteed:
+    Guaranteed Champions:
+      cutoff_position: 1
+    Guaranteed Champions League:
+      cutoff_position: 5
+    Guaranteed Europa League:
+      cutoff_position: 6
+    Guaranteed Safety:
+      cutoff_position: 17
+
+  predicted:
+    Predicted Champions:
+      position: 1
+    Predicted Runners-Up:
+      position: 2
+    Predicted Champions League:
+      cutoff_position: 5
+    Predicted Europa League:
+      cutoff_position: 6
+    Predicted Safety:
+      cutoff_position: 17
+    Predicted Relegation:
+      cutoff_position: 18
+
+sources:
+  table_url: https://www.skysports.com/premier-league-table

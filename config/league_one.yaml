@@ -1,0 +1,32 @@
+league_name: League One
+total_games: 46
+primary_playoff_cutoff: 6
+
+zones:
+  guaranteed:
+    Guaranteed Champions:
+      cutoff_position: 1
+    Guaranteed Promotion:
+      cutoff_position: 2
+    Guaranteed Play-Offs:
+      cutoff_position: 6
+    Guaranteed Safety:
+      cutoff_position: 20
+
+  predicted:
+    Predicted Champions:
+      position: 1
+    Predicted Promotion:
+      cutoff_position: 2
+    Predicted Play-Offs:
+      cutoff_position: 6
+    Predicted Safety:
+      cutoff_position: 20
+    Predicted Relegation:
+      cutoff_position: 21
+
+    
+    
+
+sources:
+  table_url: https://www.skysports.com/league-1-table
