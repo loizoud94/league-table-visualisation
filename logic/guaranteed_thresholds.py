@@ -1,5 +1,5 @@
 from logic.guaranteed_champions import compute_guaranteed_champions_unique
-
+import pandas as pd
 
 def compute_guaranteed_thresholds(
     table: pd.DataFrame,
